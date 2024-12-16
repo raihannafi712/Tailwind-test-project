@@ -12,9 +12,9 @@ export default {
       fontFamily: {
         'popins': ['Poppins', 'sans-serif'],
       },
-      backgroundImage:{
-        ban:"url(./src/assets/bg.png)"
-      }
+      // backgroundImage:{
+      //   ban:"url(./src/assets/bg.png)"
+      // }
     },
   },
   plugins: [],
