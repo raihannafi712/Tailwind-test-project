@@ -9,17 +9,17 @@ const Learn = () => {
   return (
     <section className='py-[136px] bg-[#F0F0F0] '>
         <div className='max-w-container mx-auto'>
-            <div className='flex'>
-                <div className='w-1/2 bg-[#F40404] text-[#ffff] font-popins font-bold text-[36px] py-[100px] px-[74px] '>
+            <div className=' lg:flex'>
+                <div className='w-full lg:w-1/2 text-center lg:text-start bg-[#F40404] text-[#ffff] font-popins font-bold text-[36px] py-[100px] px-[74px] '>
                     <h3>Learn more about our company</h3>
                 </div>
-                <div className='w-1/2 pl-[210px] py-[165px]'  style={{ backgroundImage: `url(${learn1})`}}>
-                  <div className=''>
-                    <a className="px-[30px] py-[14px] bg-[#fff] text-[#F40404] font-popins font-normal text-[16px] hover:bg-violet-600 hover:duration-700 hover:ease-in-out  " href="#">LEARN MORE</a>
+                <div className='w-full lg:w-1/2 lg:pl-[210px] py-[165px] bg-no-repeat'  style={{ backgroundImage: `url(${learn1})`}}>
+                  <div className='text-center lg:text-start'>
+                    <a className="px-[30px] py-[14px] text-[12px] bg-[#fff] text-[#F40404] font-popins font-normal lg:text-[16px] hover:bg-violet-600 hover:duration-700 hover:ease-in-out  " href="#">LEARN MORE</a>
                   </div>
                 </div>
             </div>
-            <div className='flex py-[117px] justify-center '>
+            <div className='flex lg:py-[117px] py-[50px] justify-center flex-wrap '>
               <div>
                 <img src={logo1} alt="logo" />
               </div>

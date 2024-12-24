@@ -9,11 +9,11 @@ const Map = () => {
         </div>
         <div className='bg-[#F40404]'>
         <div className='max-w-container mx-auto'>
-            <div className='flex justify-between py-[46px] items-center '>
+            <div className='lg:flex justify-between py-[46px] items-center '>
                 <div>
-                    <h3 className="text-[36px] font-bold font-popins text-white ">Want to join as member branch in your area?</h3>
+                    <h3 className="text-center lg:text-start lg:text-[36px] text-[24px] pb-8 lg:pb-0 font-bold font-popins text-white ">Want to join as member branch in your area?</h3>
                 </div>
-                <div>
+                <div className='text-center lg:text-start'>
                     <a className="py-[13px] px-[40px] text-white font-popins font-normal text-[16px] hover:bg-violet-600 border-2 border-white mr-[10px] hover:duration-700 hover:ease-in-out " href="#">CONTACT</a>
                 </div>
             </div>

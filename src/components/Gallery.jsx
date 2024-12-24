@@ -7,17 +7,17 @@ import pic4 from "../assets/pic4.png"
 const Gallery = () => {
   return (
     <section>
-      <div className='flex justify-between pb-7'>
-        <div className='w-[24%] '>
+      <div className=' flex justify-between flex-wrap pb-7'>
+        <div className=' lg:w-[24%] w-[49%] '>
           <img src={pic1} alt="pic1" />      
         </div> 
-        <div className='w-[24%] '>
+        <div className='lg:w-[24%] w-[49%] '>
           <img src={pic2} alt="pic2" />      
         </div> 
-        <div className='w-[24%] '>
+        <div className='lg:w-[24%] w-[49%]'>
           <img src={pic3} alt="pic3" />      
         </div> 
-        <div className='w-[24%] '>
+        <div className='lg:w-[24%] w-[49%] '>
           <img src={pic4} alt="pic4" />      
         </div> 
       </div>
